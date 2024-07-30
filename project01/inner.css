@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    align-items: center;
+    width: 380px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 340px;
+    width: 280px;
+
+}
+.uname{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.pw{
+   margin-bottom: 25px;
+   border: none;
+   outline: none;
+   border-bottom: 2px solid black;
+}
+#submit{
+    width: 200px;
+    margin-left: 40px;
+    background-color: blue;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}

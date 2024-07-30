@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    align-items: center;
+    width: 380px;
+    height: 400px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 280px;
+    height: 400px;
+
+}
+#submit{
+    background-color: blue;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-top: 10px;
+}
